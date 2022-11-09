@@ -1,5 +1,7 @@
 #navbar{
     background-image: linear-gradient( #2f8efb, #0066fe);
+    padding-left: 15%;
+    padding-right: 15%;
 }
 #nav_mid{
     display:flex;
@@ -7,7 +9,8 @@
     align-items: center;
 }
 #nav_mid img{
-    width:175px;
+    width:215px;
+    margin-bottom: -10px;
 }
 a{
     text-decoration: none;
@@ -26,21 +29,26 @@ a{
 
 #nav_bottom{
     display:flex;
-    flex-wrap: wrap;
     justify-content:baseline;
     align-items:center;
     gap:30px;
     margin-top: none;
+    height:36px;
     width: 100%;
 }
 
 #categories_dropdown{
     background-color: #428dff;
-    padding: 3px 20px;
-    border-radius: 5px;
+    padding: 8px 20px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 #nav_bottom img{
     width:70px;
     margin-left:50px;
+}
+
+#search_box{
+    height:40px;
 }
