@@ -1,0 +1,51 @@
+#login_head{
+    border:2px solid #1679fd;
+    padding: 0px;
+    margin: 0px;
+    height:125px;
+    background-color: #1679fd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#login_head>div{
+font-size: 40px;
+}
+#body{
+    border: 0px solid green;
+    height:700px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    /* background-color: green; */
+    background-image: url("https://img.gkbcdn.com/bn/2207/750-62c525372b40c92a04c94f48._p1_.jpg");
+
+}
+#create_account{
+    border:0px solid green;
+    height:450px;
+    width:500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: grey;
+    box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+}
+#account_btn{
+    margin-top: 20px;
+    border: 2px solid #1679fd;
+    border-radius: 5px;
+    background-color: #1679fd;
+    color:white;
+    
+    height:50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+#name,#email,#otp{
+    height:35px;
+    width: 420px;
+}
