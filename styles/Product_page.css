@@ -1,0 +1,397 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif,Arial,Helvetica;
+}
+
+nav{
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+    
+}
+ul{
+    list-style-type: none;
+}
+#saleImgae{
+    width: 80.5%;
+    height: auto;
+    border: 0px solid red;
+    margin: 20px auto;
+}
+#saleImgae img{
+    width: 100%;
+}
+
+#item_pathway{
+    display: flex;
+    border: 0px solid red;
+    width: 80.5%;
+    margin: auto;
+   padding: 10px 1px ;
+}
+
+a{
+    text-decoration: none;
+    color:#9ba2b6;
+}
+
+
+a:hover{
+    color: blue;
+}
+
+.dropdown_list{
+    display: none;
+    list-style-type: none;
+}
+.dropdown_list ul li {
+    margin: 10px ;
+    
+}
+
+
+#item_pathway  :hover .dropdown_list 
+{
+    display: block;
+    position: absolute;
+    box-shadow: rgba(0, 0, 0, 0.15) 10px 1px 15px;
+    font-size: 14px;
+    background-color: white;
+    padding-right: 10px;
+    padding-bottom: 10px;
+}
+.dropdown_list a{
+    color: black;
+
+}
+.dropdown_list a:hover{
+    color: blue;
+    
+}
+
+/* the image part of the product page  */
+#container{
+    width: 80%;
+    height: 600px;
+    border:  0px solid red;
+    margin: auto;
+    display: flex;
+}
+
+#container_right
+{
+    width: 35%;
+    height: 800px;
+    border:  0px solid red;
+    
+}
+#container_left
+{
+    width: 65%;
+    height: 800px;
+    border:  0px solid blue;
+}
+
+#featured{
+    
+    border: 0px solid black;
+}
+
+.thumbnail{
+    object-fit: cover;
+    max-width: 70px;
+    height: 70px;
+    cursor: pointer;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.thumbnail:hover{
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.active{
+    border: 1px solid black;
+}
+#mainImgae{
+width: 500px;
+height: 500px;
+
+
+}
+#slider-wrapper{
+    max-width: 500px;
+    display: flex;
+    min-height: 100px;
+    align-items: center;
+    
+    border: 0px solid red;
+}
+
+#slider{
+    width: 400px;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    border: 0px solid red;
+    margin: auto;
+    
+}
+#slider img{
+    margin: 2px 2px;
+}
+
+.arrow{
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+}
+
+.arrow:hover{
+    width: 30px;
+    height: 35px;
+    cursor: pointer;
+    opacity: .5;
+}
+
+#item_name{
+    font-size: 20px;
+}
+
+#rating{
+    display: flex;
+    border: 0px solid red;
+    justify-content: space-around;
+    width: 65%;
+    margin: 20px 0;
+}
+
+#rating a{
+    color: black;
+}
+#rating a:hover{
+    color: blue;
+}
+#item_price_counpons{
+    font-size: 35px;
+    margin: 20px 20px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 1px;
+    padding: 5px 5px;
+}
+#newuser{
+    color: blue;
+    font-size: 15px;
+}
+
+#get_counpons a{
+    color: blue;
+    font-size: 15px;
+    margin: 50px 20px;
+}
+#coupons{
+    
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+#QTY{
+    display: flex;
+    margin: 20px 0;
+    font-size: 15px;
+    align-items: center;
+}
+
+#QTY-wrap{
+    display: flex;
+    height: 27px;
+    width: 125px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #e0e6ef;
+    margin-left: 87px;
+    color: #555b65;
+    height: 28px;
+}
+
+#QTY-wrap span{
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 100;
+    cursor: pointer;
+}
+
+#QTY-wrap span.num{
+    font-size: 17px;
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    border-left: 1px solid rgba(0, 0, 0, 0.2);
+    width: 300px;
+    
+    }
+
+    #cartandbuy button{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        font-weight:bold;
+        border: 2px solid #0066ff;
+        border-radius: 5px;
+        background-color: white;
+        color: #0066ff;
+    }
+    #cartandbuy button:nth-child(2){
+        background-color: #0066ff;
+        color: white;
+        margin-right: 20px;
+    }
+    #cartandbuy span{
+        font-size: 20px;
+        font-weight: 100;
+        color: #7d7f83;
+    }
+    #Payment{
+        margin-top: 20px;
+        color: #aeb0b3;
+    }
+
+    #threeoptions{
+        width: 500px;
+        height: 20px;
+        border: 0px solid red;
+        display: flex;
+        justify-content: space-between;
+        margin: 20px 0;
+    }
+
+    #companylogos img{
+        width: 50px;
+        
+    }
+
+    #Description{
+        border: 0px solid red;
+        width: 80%;
+        height: 70px;
+        margin: auto;
+        margin-top: 20px;
+        
+    }
+    #Description button{
+        height: 100%;
+        width: 150px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+    #Description button:nth-child(1)
+    {
+        background-color: #0066ff;
+        color: #e0e6ef;
+        border: 0;
+    }
+    #Description button:nth-child(2)
+    {
+        background-color: white ;
+        color: #707782;
+        border: 0;
+        font-weight:lighter;
+
+    }
+    #Description button:nth-child(3)
+    {
+        background-color: white ;
+        color: #707782;
+        border: 0;
+        font-weight:lighter;
+        
+    }
+    #Highlights{
+        width: 80%;
+        height: auto;
+        border: 0px solid red;
+        margin: auto;
+    }
+    #Highlights-para
+    {
+        width: 66%;
+        border: 0px solid red;
+        line-height: 25px;
+    }
+
+    #footer{
+        width: 100%;
+        height: 500px;
+        
+        background-color: red;
+    }
+
+    #Descriptionnavbar{
+        width: 100%;
+        height: 60px;
+        
+        display: flex;
+        justify-content: space-around;
+    }
+
+    #Descriptionnavbar_right{
+        width: 25%;
+        
+    }
+    #Descriptionnavbar_right button{
+        height: 100%;
+        width: 150px;
+        font-size: 20px;
+        font-weight: bolder;
+    }
+
+    #Descriptionnavbar_right button:nth-child(1)
+    {
+        background-color: #0066ff;
+        color: #e0e6ef;
+        border: 0;
+    }
+    #Descriptionnavbar_right button:nth-child(2)
+    {
+        background-color: white ;
+        color: #707782;
+        border: 0;
+        font-weight:lighter;
+    }
+    #Descriptionnavbar_right button:nth-child(3)
+    {
+        background-color: white ;
+        color: #707782;
+        border: 0;
+        font-weight:lighter;
+    }
+
+    #Descriptionnavbar_left{
+        width: 35.2%;
+        
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    #Descriptionnavbar_left button{
+        width: 150px;
+        height: 50px;
+        font-size: 20px;
+        font-weight:bold;
+        border: 2px solid #0066ff;
+        border-radius: 5px;
+        background-color: #0066ff;
+        color: white;
+        margin-left: 10px;
+        
+    }
+
+    #Descriptionnavbar_left button:nth-child(2){
+        
+        background-color: white;
+        color: #0066ff;
+        margin-right: 20px;
+    }
+
