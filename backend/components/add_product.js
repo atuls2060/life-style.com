@@ -1,4 +1,5 @@
 export default (product) => {
+  
   return `
    ${product ? "" : "<h2 class='data_heading'>Add Product</h2>"}
    <form id="add_product_form">
