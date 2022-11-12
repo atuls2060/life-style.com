@@ -84,6 +84,7 @@ body{
 form, input, p, ul {
     margin: 10px;
     padding: 0;
+    list-style-type: none;
 }
 
 .checkout_address .addr_btn button {
@@ -98,6 +99,193 @@ form, input, p, ul {
     line-height: 44px;
     font-size: 20px;
 }
+
+.default_addr, .addr_btn{
+    margin-left: 240px;
+}
+
+.saves{
+    background-color: blueviolet;
+    color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.cancel{
+    background-color: aliceblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.product {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    line-height: 30px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+
+/* #product_list {
+    padding: 15px;
+} */
+
+.product_box{
+    padding: 20px;
+    border: 1px solid #e6e7e8;
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+    margin-top: 20px;
+    display: flex;
+}
+
+.place_title {
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    line-height: 30px;
+    display: inline-block;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.shipp_methodes_tit span.shipp_methodes_titl {
+    width: 420px;
+    text-indent: 30px;
+}
+
+.shipp_methodes_tit span {
+    font-size: 14px;
+    color: #999;
+    line-height: 56px;
+    width: 440px;
+    text-align: left;
+    float: left;
+}
+
+.shipping_box{
+    padding: 20px;
+    border: 1px solid #e6e7e8;
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+    margin-top: 20px;
+    /* display: none; */
+}
+
+.ship_insur span {
+    font-size: 14px;
+    text-indent: 10px;
+    color: #333;
+    text-align: left;
+    display: inline-block;
+}
+
+.ship_insur p {
+    font-size: 12px;
+    color: #999;
+    margin-top: 6px;
+    width: 100%;
+    line-height: 20px;
+}
+
+.ship_insur .jbTipSpan .msg_i {
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background-color: #b5b5b5;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+    line-height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+#InsuranceTotal{
+    line-height: 20px;
+    font-weight: bolder;
+}
+
+#checkbox_1{
+    position: relative;
+    width: 16px;
+    height: 16px;
+    /* padding-left: 200px; */
+}
+
+.ship_insur .msg_i{
+    width: 16px;
+    height: 16px;
+    margin-left: 10px;
+    background-color: #b5b5b5;
+    font-size: 12px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+    text-indent: 0;
+    line-height: 16px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.shopcart_foot {
+    padding: 35px 40px;
+    width: 95%;
+    border: 1px solid #e6e7e8;
+    margin: 38px auto 20px auto;
+    border-radius: 4px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.shop_apply .shop_coupon {
+    display: block;
+    color: #999;
+    font-size: 14px;
+    line-height: 28px;
+    margin-bottom: 10px;
+}
+
+.code_text {
+    width: 480px;
+    /* position: absolute; */
+    left: 0;
+    top: 0;
+    height: 34px;
+    text-indent: 10px;
+    border: 1px solid #e6e7e8;
+    border-radius: 4px 0 0 4px;
+    /* border-right: 0; */
+    outline: 0;
+    box-sizing: border-box;
+}
+
+#gadget_btn{
+    width: 50px;
+    height: 34px;
+}
+
+/* .shopcart_foot_place .grand_totall {
+    margin: 20px 0;
+    font-size: 14px;
+    padding-top: 10px;
+} */
+
+#footer{
+    
+    text-align: center;
+    background-color: #f1f6fd;
+}
+#footer>p{
+    color: #888;
+}
+
 
 
 
