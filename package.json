@@ -1,0 +1,19 @@
+{
+  "name": "hanging-teeth-7136",
+  "version": "1.0.0",
+  "description": "product info",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/atuls2060/hanging-teeth-7136.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/atuls2060/hanging-teeth-7136/issues"
+  },
+  "homepage": "https://github.com/atuls2060/hanging-teeth-7136#readme"
+}
