@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/create_account.css">
+</head>
+<body>
+    <div id="login_head">
+        <div>GeekBuying</div>
+    </div>
+    <div id="body">
+    <div id="create_account">
+        <div id="enter_details">
+           <h1>Create your account</h1>
+           <input id="id" type="text" placeholder="ID" required><p></p>
+           <input id="name" type="text" placeholder="Name" required><p></p>
+           <input id="email" type="email" placeholder="Email address" required><p></p>
+           <input id="password" type="password" placeholder="Password" required><p></p>
+           <!-- <input id="otp" type="password" placeholder="OTP" required><p></p> -->
+           <input id="c_box" type="checkbox">
+           <span>I agree to Geekbuying's</span>
+           <a href="#"><span>Terms of Use</span></a>
+           <span>&</span>
+           <a href="#">Privacy Policy</a>
+           <div onclick="post_data()" id="account_btn">Create account</div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/create_account.js"></script>
