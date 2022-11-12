@@ -101,3 +101,82 @@ a{
 #search_box{
     height:40px;
 }
+
+#deal_div{
+  border: 2px solid grey;
+  height:200px;
+  display: grid;
+  grid-template-columns: repeat(8,1fr);
+  gap:2%
+}
+#deal_div>div{
+  border: 2px solid blue;
+
+}
+#deal_div>div>img{
+  height: 120px;
+  width: 100%;
+}
+#deal_div>p{
+  padding-left:20px;
+}
+#trending{
+  border:2px solid green;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
+  gap:1%;
+  height: auto;
+}
+.products{
+  border:2px solid red
+}
+#new{
+  border: 2px solid greenyellow;
+  display: flex;
+}
+#photo{
+  border: 2px solid blueviolet;
+  flex:auto
+}
+#anime1{
+  border: 2px solid red;
+  flex:20
+}
+#enjoy_life{
+  border:2px solid green;
+  height:550px;
+  display: flex;
+}
+#left{
+  border:2px solid rgb(254, 67, 98);
+  flex:25
+}
+#right{
+  border:2px solid blue;
+  flex:75
+}
+#left>img{
+  height:550px ;
+  border-radius: 20px;
+}
+#right{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  gap:2%
+}
+#right>div{
+  border: 2px solid;
+  background-color: #768ac8;
+}
+.pics{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap:20px
+}
+.pics1{
+  border: 2px solid brown;
+}
+.pics2{
+  border: 2px solid blue;
+}

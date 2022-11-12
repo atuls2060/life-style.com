@@ -19,7 +19,14 @@ let data=await res.json()
 // alert("Successful")
 // 
 console.log(res)
-console.log(data)
+// console.log(data)
+
+if(res.ok==true){
+    alert("Successfully Loged In")
+}
+else{
+    alert("Login Failed")
+}
     }
     catch(err){
         console.log("err:",err)
