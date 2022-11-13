@@ -70,3 +70,5 @@ let footer_div = document.getElementById("footer");
 
 nav_div.innerHTML = navi();
 footer_div.innerHTML = footer();
+
+getElementById

@@ -23,7 +23,7 @@ console.log(res)
 
 if(res.ok==true){
     alert("Successfully Logged In")
-    location.href = "./home.html"
+    location.href = "./index.html"
 }
 else{
     alert("Login Failed")
