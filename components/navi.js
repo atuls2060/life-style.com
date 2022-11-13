@@ -1,5 +1,5 @@
 const navi = () => {
-    return `<div id="navbar">
+    return `
 <div id="nav_top">
   <div class="dropdown">
       <button class="dropbtn"> 
@@ -68,8 +68,8 @@ const navi = () => {
       <div class="dropdown-content-3">
         <p class="welcome">Welcome to The Gadget Factory</p>
         <div>
-          <button href="">Join</button>
-          <button href="./login.html">Sign In</button>
+          <button><a href="./create_account.html">Join</a></button>
+         <a href="./login.html"> <button>Sign In </button></a>
         </div>
       </div>
     </div>
@@ -109,7 +109,6 @@ const navi = () => {
     <a href="">Coupon</a>
     <a href="">App Only</a>
     <img src="./images/whatgeeks.png" class="beat_logo" alt="offer" href=""> 
-  </div>
 </div>`
 }
 

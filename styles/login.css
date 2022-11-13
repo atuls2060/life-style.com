@@ -30,6 +30,7 @@ font-size: 40px;
     background-color: white;
  /* box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px; */
  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+
 }
 #login>h3{
     font-style: Open Sans;
@@ -64,14 +65,16 @@ font-size: 40px;
     text-align: center;
 }
 #email{
-    width:420px;
+    width:400px;
     height:35px;
-    color:grey
+    color:grey;
+    box-sizing: border-box;
 }
 #password{
-    width:420px;
+    width:400px;
     height:35px;
-    color:grey
+    color:grey;
+    box-sizing: border-box;
 }
 #google_img{
 display: flex;
