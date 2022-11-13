@@ -1,0 +1,40 @@
+#popups{
+    width: 400px;
+    background: rgb(14, 2, 2);
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: white;
+    /* display: none; */
+}
+
+#popups img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+#popups h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+#popups button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #4fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgda(0, 0, 0, 0.2);
+}
