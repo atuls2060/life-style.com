@@ -52,7 +52,12 @@ minus.addEventListener("click", ()=>{
     }
 })
 
+let checkout=document.getElementById("checkout")
+checkout.onclick=()=>{
 
+    window.location.href="./checkout.html"
+
+}
 import navi from "../components/navi.js"
 import footer from "../components/foot.js"
 
