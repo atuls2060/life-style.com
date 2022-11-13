@@ -1,0 +1,73 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans",sans-serif,Arial,Helvetica;
+}
+
+#navbar{
+    width: 100%;
+    height: 100px;
+    border: 1px solid red;
+}
+
+#mainHeader h1{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 500;
+}
+#mainHeader{
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    padding: 10px 10px ;
+    margin: 20px 20px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    width: 70%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    position :relative;
+    float:right;
+    margin-right: 200px;
+    margin-top: 50px;
+    padding-left: 20px;
+
+}
+#container div {
+    width: 80%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    font-size: 15px;
+    margin: 5px 5px ;
+    padding: 10px 10px;
+}
+
+#container div img{
+    width: 100%;
+}
+#container div:hover{
+    transition: 1s;
+    margin: 5px 5px ;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 10px 10px;
+}
+
+#container div h3{
+    font-size: 20px;
+    display: block;
+    overflow: hidden;
+   
+}
+
+
+#container div p{
+    font-size: 18px;
+    display: block;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    height: 45px;
+}
+
+ 
+
+
