@@ -34,7 +34,7 @@ const navi = () => {
 </div>
 
 <div id="nav_mid">
-    <img src="./images/logo.png" alt="Company Logo">
+    <img href="./home.html" src="./images/logo.png" alt="Company Logo">
     <div>
       <div class="dropdown-2">
       <button class="dropbtn-2"> 
@@ -101,15 +101,21 @@ const navi = () => {
         <a href="#">Wearable Devices</a>
       </div>
     </div>  
-    <a href="">New</a>
+    <a  id="allP" href="./product_page.html">All Products</a>
     <a href="">Bestselling</a>
     <a href="">Brand</a>
     <a href="">Clearance</a>
     <a href="">Deals</a>
     <a href="">Coupon</a>
     <a href="">App Only</a>
-    <img src="./images/whatgeeks.png" class="beat_logo" alt="offer" href=""> 
-</div>`
+    <img  src="./images/whatgeeks.png" class="beat_logo" alt="offer" href=""> 
+</div>
+
+
+
+
+
+`
 }
 
 export default navi
