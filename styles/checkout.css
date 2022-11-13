@@ -11,6 +11,12 @@ body{
     /* border: 1px solid red; */
     display: flex;
     background-color: rgb(112, 112, 218);
+    justify-content: space-around;
+    text-align: center;
+}
+
+#image{
+    margin-top: 20px;
 }
 
 #logo{
@@ -18,14 +24,23 @@ body{
     object-fit:cover;
     object-position:50% 50%;
     margin: auto;
-    margin-left: 150px;
+    /* margin-left: 150px; */
     /* border-radius: 0px 10px 10px 0px; */
 }
 
-#header>hr{
+/* #header>hr{
     height: 50%;
     margin: auto;
-    margin-left: -1400px;
+    margin-left: -800px;
+} */
+
+
+#header h2{
+    
+    
+    color: gold;
+    text-align: center;
+    margin-top: 50px;
 }
 
 .cart_section{
@@ -285,6 +300,58 @@ form, input, p, ul {
 #footer>p{
     color: #888;
 }
+
+.popup{
+    width: 400px;
+    background: rgb(14, 2, 2);
+    border-radius: 6px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding: 0 30px 30px;
+    color: white;
+    display: none;
+}
+
+.popup img{
+    width: 100px;
+    margin-top: -50px;
+    border-radius: 50%;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.popup h2{
+    font-size: 38px;
+    font-weight: 500;
+    margin: 30px 0 10px;
+}
+
+.popup button{
+    width: 100%;
+    margin-top: 50px;
+    padding: 10px 0;
+    background: #4fd649;
+    color: #fff;
+    border: 0;
+    outline: none;
+    font-size: 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 5px 5px rgda(0, 0, 0, 0.2);
+}
+
+#submitPay{
+    width: 150px;
+    height: 50px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #4fd649;
+}
+
+
 
 
 
