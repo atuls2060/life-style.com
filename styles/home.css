@@ -1,3 +1,214 @@
+#navbar{
+  padding-bottom: 20px;
+}
 #deal_div{
-    border: 2px solid blue;
+    border: 0px solid grey;
+    height:200px;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    gap:2%
+    }
+    #deal_div>div{
+    border: 0px solid blue;
+    
+    }
+    #deal_div>div>img{
+    height: 120px;
+    width: 100%;
+    }
+    #deal_div>p{
+    padding-left:20px;
+    }
+    #trending{
+    border:0px solid green;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:1%;
+    height: auto;
+    }
+    .products{
+    border:0px solid red
+    }
+    #new{
+    border: 0px solid greenyellow;
+    display: flex;
+    }
+    #photo{
+    border: 0px solid blueviolet;
+    flex:auto
+    }
+    #anime1{
+    border: 0px solid red;
+    flex:20
+    }
+    #enjoy_life{
+    border:0px solid green;
+    height:550px;
+    display: flex;
+    }
+    #left{
+    border:0px solid rgb(254, 67, 98);
+    flex:25
+    }
+    #right{
+    border:0px solid blue;
+    flex:75
+    }
+    #left>img{
+    height:550px ;
+    border-radius: 20px;
+    }
+    #right{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: repeat(2,1fr);
+    gap:2%
+    }
+    #right>div{
+    border: 0px solid;
+    background-color: #768ac8;
+    }
+    .pics{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:20px
+    }
+    .pics1{
+    border: 0px solid brown;
+    }
+    .pics2{
+    border: 0px solid blue;
+    }
+    
+    
+    #deal_div{
+      border: 0px solid grey;
+      height:200px;
+      display: grid;
+      grid-template-columns: repeat(8,1fr);
+      gap:2%
+    }
+    #deal_div>div{
+      border: 0px solid blue;
+    
+    }
+    #deal_div>div>img{
+      height: 120px;
+      width: 100%;
+    }
+    #deal_div>p{
+      padding-left:20px;
+    }
+    #trending{
+      border:0px solid green;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap:1%;
+      height: auto;
+    }
+    .products{
+      border:0px solid red
+    }
+    #new{
+      border: 0px solid greenyellow;
+      display: flex;
+    }
+    #photo{
+      border: 0px solid blueviolet;
+      flex:auto
+    }
+    #anime1{
+      border: 0px solid red;
+      flex:20;
+      display: grid;
+      grid-template-columns: repeat(3,1fr);
+      gap:2%
+    }
+    #enjoy_life{
+      border:0px solid green;
+      height:auto;
+      display: flex;
+    }
+    #left{
+      border:0px solid rgb(254, 67, 98);
+      flex:25;
+      height: auto;
+    }
+    #right{
+      border:0px solid blue;
+      flex:75
+    }
+    #left>img{
+      height:auto ;
+      border-radius: 20px;
+    }
+    #right{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      grid-template-rows: repeat(2,1fr);
+      gap:2%
+    }
+    #right>div{
+      border: 0px solid;
+      background-color: #768ac8;
+    }
+    .pics{
+      display: grid;
+      grid-template-columns: repeat(2,1fr);
+      gap:20px
+    }
+    .pics1{
+      border: 0px solid brown;
+    }
+    .pics2{
+      border: 0px solid green;
+    }
+#best_sellers_div{
+  border:0px solid red;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:2%
+}
+.best{
+  border: 0px solid blue;
+}
+#popular1{
+  border:0px solid blue;
+  height:260px;
+  background-image:url("https://img.gkbcdn.com/bn/2205/1500x2603-628f67f02b40c91f8ca376fa._p1_.jpg");
+  animation:changeImage 20s linear infinite; 
+} 
+@keyframes changeImage{
+  0%{
+    background-image: url('https://img.gkbcdn.com/bn/2205/1500x260-628f67db2b40c91f8ca376f8._p1_.jpg');
+  }
+  50%{
+    background-image: url('https://img.gkbcdn.com/bn/2205/1500x2602-628f67e92b40c91f8ca376f9._p1_.jpg');
+  }
+}
+#popular2{
+  border:0px solid teal;
+  display: flex;
+  
+}
+#pop_left{
+  border:0px solid black;
+  flex:2;
+  
+}
+#pop_right{
+  border:0px solid greenyellow;
+  flex:8;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  gap:1%
+}
+#pop_left>img{
+  margin-bottom: 230px;
+}
+#pop_right>div{
+  border: 0px solid blue;
+}
+#thank{
+  text-align: center;
 }

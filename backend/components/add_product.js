@@ -8,7 +8,7 @@ export default (product) => {
      </div>
      <div>
        <label for="brand">Brand</label>
-       <input id="brand" type="text" placeholder="brand" value="${product ? product.brand:""}" required>
+       <input id="brand" type="text" placeholder="brand" value="${product ? product.brand:"default"}" required>
      </div>
      <div>
        <label for="price">Price</label>
@@ -16,7 +16,7 @@ export default (product) => {
      </div>
      <div>
        <label for="discount">Discount</label>
-       <input id="discount" type="number" placeholder="discount" value="${product ? product.discount:"default"}" required>
+       <input id="discount" type="number" placeholder="discount" value="${product ? product.discount:""}" required>
      </div>
      <div>
        <label for="category">Category</label>

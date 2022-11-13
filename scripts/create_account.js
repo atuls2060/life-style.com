@@ -1,11 +1,9 @@
 const post_data=async()=>{
     try{
-let id=document.querySelector("#id").value
 let name1=document.querySelector("#name").value
 let email=document.querySelector("#email").value
 let password=document.querySelector("#password").value
 let data={
-    id,
     name:name1,
     email,
     password
@@ -19,6 +17,7 @@ headers:{
 }
 })
 alert("Account is created")
+location.href = "./login.html"
 }
 catch(err){
     console.log("err:",err)
