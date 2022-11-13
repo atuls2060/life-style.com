@@ -101,7 +101,7 @@ const navi = () => {
         <a href="#">Wearable Devices</a>
       </div>
     </div>  
-    <a  id="allP" href="./product_page.html">All Products</a>
+    <a  id="allP" href="./all_product_page.html">All Products</a>
     <a href="">Bestselling</a>
     <a href="">Brand</a>
     <a href="">Clearance</a>
