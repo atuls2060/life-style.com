@@ -46,6 +46,7 @@ import orders from "../components/orders.js"
 import products from "../components/products.js"
 import users from "../components/users.js"
 import add_product from "../components/add_product.js"
+import dashboard from "../components/dashboard.js";
 
 let order_data = [{
   id: 1,
@@ -87,7 +88,7 @@ let order_data = [{
 
 
 const data_div = document.getElementById("data_div");
-orders(users_data, data_div);
+dashboard(order_data, data_div);
 
 document.getElementById("dashboard").onclick = () => {
   data_div.innerHTML = null;
